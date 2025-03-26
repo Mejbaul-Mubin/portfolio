@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* =====================header=========================== */
+.logo {
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+/* =====================Hero=========================== */
+.hero-img {
+  position: relative;
+}
+.hero-img img {
+  max-width: 50%;
+  border-radius: 50%;
+}
+.hero-img a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #000;
+  top: 0;
+  left: 0;
+}
